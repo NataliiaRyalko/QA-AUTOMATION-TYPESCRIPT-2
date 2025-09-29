@@ -1,31 +1,31 @@
-const MY_VALUE = true;
+let myValue = true;
 
-switch (MY_VALUE) {
+switch (myValue) {
     case false: {
-        console.log('MY_VALUE === false');
+        console.log('myValue === false');
         break;
     }
     case true: {
-        console.log('MY_VALUE === true');
+        console.log('myValue === true');
         break;
     }
     default:
         console.log('non of the conditions above');
 }
 
-const MY_VALUE_TEXT = 'text';
+myValue = 'text';
 
-switch (MY_VALUE_TEXT) {
+switch (myValue) {
     case 'TEXT': {
-        console.log('MY_VALUE === TEXT');
+        console.log('myValue === TEXT');
         break;
     }
     case 'Text': {
-        console.log('MY_VALUE === Text');
+        console.log('myValue === Text');
         break;
     }
     case 'text': {
-        console.log('MY_VALUE === text');
+        console.log('myValue === text');
         break;
     }
     default:

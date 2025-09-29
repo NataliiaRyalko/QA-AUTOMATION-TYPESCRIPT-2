@@ -1,13 +1,13 @@
-const MY_VALUE = 50;
-const MAX_VALUE = 200;
-const MIN_VALUE = 50;
+let myValue = 50;
+let maxValue = 200;
+let minValue = 50;
 
-if (MY_VALUE > MIN_VALUE && MY_VALUE < MAX_VALUE) {
-    console.log('MY_VALUE is in range');
-} else if (MY_VALUE < MIN_VALUE || MY_VALUE > MAX_VALUE ) {
-    console.log('MY_VALUE is out of range');
-} else if (MY_VALUE == MAX_VALUE) {
-    console.log('MY_VALUE == 200');
+if (myValue > minValue && myValue < maxValue) {
+    console.log('myValue is in range');
+} else if (myValue < minValue || myValue > maxValue ) {
+    console.log('myValue is out of range');
+} else if (myValue == maxValue) {
+    console.log('myValue == 200');
 } else {
-    console.log('MY_VALUE == 50');
+    console.log('myValue == 50');
 }
