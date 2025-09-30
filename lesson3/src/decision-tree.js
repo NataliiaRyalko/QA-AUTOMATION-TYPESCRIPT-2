@@ -1,6 +1,6 @@
-let myValue = 50;
-let maxValue = 200;
-let minValue = 50;
+const myValue = 50;
+const maxValue = 200;
+const minValue = 50;
 
 if (myValue > minValue && myValue < maxValue) {
     console.log('myValue is in range');

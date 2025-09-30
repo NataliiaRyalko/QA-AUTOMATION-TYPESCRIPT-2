@@ -1,13 +1,13 @@
-let firstIntValue = 5;
-let secondIntValue = 10;
-let firstStringValue = "string";
-let secondStringValue = "string two";
-let boolValue = true;
-let nullValue = null;
-let undefinedValue = undefined;
-let objectValue = {name: "Ivan", age: 25};
-let symbolValue = Symbol('!');
-let otherSymbol = Symbol('#');
+const firstIntValue = 5;
+const secondIntValue = 10;
+const firstStringValue = 'string';
+const secondStringValue = 'string two';
+const boolValue = true;
+const nullValue = null;
+const undefinedValue = undefined;
+const objectValue = {name: 'Ivan', age: 25};
+const symbolValue = Symbol('!');
+const otherSymbol = Symbol('#');
 
 console.log('> and <');
 console.log('Int values if 5 < 10 result: ', firstIntValue < secondIntValue);
