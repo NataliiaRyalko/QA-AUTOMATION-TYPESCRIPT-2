@@ -14,7 +14,7 @@ newObject.name3 = {
 
 
 newObject.responsibilitiesOutput = function () {
-    console.log(this.name2.responsibilities);
+    console.log(this.name3.responsibilities);
 
 };
 
