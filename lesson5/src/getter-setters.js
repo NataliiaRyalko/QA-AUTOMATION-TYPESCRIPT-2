@@ -7,14 +7,14 @@ const colors = {
         get density() {
             return this._density;
         },
+        set density(value) {
+            this._density = value;
+        },
         get rgb() {
             return this._rgb;
         },
         get hex() {
             return this._hex;
-        },
-        set density(value) {
-            this._density = value;
         }
     },
     _green : {
@@ -25,14 +25,14 @@ const colors = {
         get density() {
             return this._density;
         },
+        set density(value) {
+            this._density = value;
+        },
         get rgb() {
             return this._rgb;
         },
         get hex() {
             return this._hex;
-        },
-        set density(value) {
-            this._density = value;
         }
     },
     _blue : {
@@ -43,14 +43,14 @@ const colors = {
         get density() {
             return this._density;
         },
+        set density(value) {
+            this._density = value;
+        },
         get rgb() {
             return this._rgb;
         },
         get hex() {
             return this._hex;
-        },
-        set density(value) {
-            this._density = value;
         }
     }
 };
