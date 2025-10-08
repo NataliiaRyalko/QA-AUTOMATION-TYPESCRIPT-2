@@ -7,7 +7,7 @@ const addArrayElements = (arr) => {
     arr.forEach(element => {
         sum += element;
     });
-    return (sum);
+    return sum;
 };
 
 const arrayNumbers = [1, 5, 3, 6];

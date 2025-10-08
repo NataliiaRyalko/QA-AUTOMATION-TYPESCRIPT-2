@@ -8,7 +8,7 @@ function addArrayElements (arr) {
         return;
     };
     const sum = arr.reduce((acc, item) => acc += item);
-    return (sum);
+    return sum;
 };
 
 const arrayNumbers = [1, 5, 3, 6];
